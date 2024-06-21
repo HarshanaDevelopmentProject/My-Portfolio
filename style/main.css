@@ -1,0 +1,1145 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.home-outer {
+    width: 100%;
+    height: auto;
+    border: 2px solid green;
+    /* background: linear-gradient(90deg, black, white); */
+    background-color: black;
+
+
+
+
+}
+
+/* ****************************************************main title part ********************************************************* */
+.home-title-outer {
+    width: 100%;
+    height: 200px;
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    /* background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+
+
+
+
+}
+
+.main-title {
+
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+
+    /* animation: title-animation 2s  infinite   linear; */
+
+
+}
+
+
+
+
+
+/* *********************************************introduction section ****************************************************** */
+.home-self-outer {
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+
+
+/* .home-self-inner {
+
+
+    width: 75%;
+    height: 95%;
+    border: 5px solid rgb(1, 236, 205);
+    border-radius: 50px;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(83deg, rgba(0, 0, 3, 0.938) 35%, rgba(171, 230, 171, 0.637) 80%), white;
+   
+
+
+
+} */
+
+/* .image-section {
+    width: 40%;
+    height: 100%;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .profile-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 5px solid rgb(39, 173, 5);
+} */
+/* ================================================******************************************* */
+.home-self-inner {
+
+
+    width: 40%;
+    height: 95%;
+    border: 5px solid rgb(1, 236, 205);
+    border-radius: 50px;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(83deg, rgba(0, 0, 3, 0.938) 35%, rgba(171, 230, 171, 0.637) 80%), white;
+
+    position: relative;
+
+
+}
+
+.profile-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.content-section {
+    width: 100%;
+    height: 100%;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+.content-title {
+    font-size: 60px;
+    font-style: italic;
+    color: white;
+
+
+}
+
+.content-jobrole {
+    font-size: 40px;
+    color: white;
+
+}
+
+.content {
+    margin: 0 50px 0 50px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    color: rgb(160, 233, 65);
+}
+
+/* ==============================================end==******************************************* */
+
+
+
+/* .content-section {
+    width: 60%;
+    height: 100%;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* .content-title {
+    font-size: 60px;
+    font-style: italic;
+
+
+}
+
+.content-jobrole {
+    font-size: 40px;
+}
+
+.content {
+    margin: 0 50px 0 50px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+} */
+
+
+
+/* *************************************************** navigate section ************************************************************ */
+
+.home-navigate-button-outer {
+    width: 100%;
+    height: 250px;
+    border: 1px solid orange;
+    display: flex;
+    overflow: hidden;
+    /* padding: 0 0 0 200px; */
+}
+
+.navigate {
+    width: 25%;
+    height: 90%;
+
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-arrow-icon {
+    width: 100px;
+    height: 100px;
+    animation: navigate-arrow-function 1.5s 2s infinite linear;
+}
+
+.right-arrow-icon {
+    width: 100px;
+    height: 100px;
+    rotate: 180deg;
+    animation: navigate-arrow-function 1.5s 2s infinite linear;
+}
+
+.common-navigate {
+    width: 90%;
+    height: 90%;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.about-me {
+
+    background-image: url('/images/img1.jpeg');
+
+
+}
+
+.skills {
+
+    background-image: url('/images/img2.jpeg');
+    display: none;
+}
+
+.project {
+
+    background-image: url('/images/img3.jpeg');
+    display: none;
+}
+
+.contact {
+
+    background-image: url('/images/img4.jpeg');
+    display: none;
+}
+
+/* =====================================================responcive part =========================================================== */
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .home-title-outer {
+        height: 150px;
+    }
+
+    .main-title {
+        font-size: 75px;
+    }
+
+    .home-self-outer {
+        height: 950px;
+
+    }
+
+    .home-self-inner {
+        width: 30%;
+        height: 80%;
+
+
+    }
+
+    .content-title {
+        font-size: 44px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 38px;
+
+
+    }
+
+    .content {
+
+        font-size: 29px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 260px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 80%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 100px;
+        height: 100px;
+
+    }
+
+
+    .common-navigate {
+        width: 40%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .home-title-outer {
+        height: 150px;
+    }
+
+    .main-title {
+        font-size: 75px;
+    }
+
+    .home-self-outer {
+        height: 850px;
+
+    }
+
+    .home-self-inner {
+        width: 40%;
+        height: 80%;
+
+
+    }
+
+    .content-title {
+        font-size: 44px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 38px;
+
+
+    }
+
+    .content {
+
+        font-size: 29px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 260px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 80%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 100px;
+        height: 100px;
+
+    }
+
+
+    .common-navigate {
+        width: 60%;
+        height: 100%;
+    }
+
+}
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .home-title-outer {
+        height: 130px;
+    }
+
+    .main-title {
+        font-size: 75px;
+    }
+
+    .home-self-outer {
+        height: 650px;
+
+    }
+
+    .home-self-inner {
+        width: 40%;
+        height: 95%;
+        margin-top: -50px;
+
+    }
+
+    .content-title {
+        font-size: 44px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 38px;
+
+
+    }
+
+    .content {
+
+        font-size: 29px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 220px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 80%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 100px;
+        height: 100px;
+
+    }
+
+
+    .common-navigate {
+        width: 60%;
+        height: 100%;
+    }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .home-title-outer {
+        height: 130px;
+    }
+
+    .main-title {
+        font-size: 65px;
+    }
+
+    .home-self-outer {
+        height: 650px;
+
+    }
+
+    .home-self-inner {
+        width: 50%;
+        height: 90%;
+        margin-top: -50px;
+
+    }
+
+    .content-title {
+        font-size: 40px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 35px;
+
+
+    }
+
+    .content {
+
+        font-size: 27px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 190px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 80%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 80px;
+        height: 80px;
+
+    }
+
+
+    .common-navigate {
+        width: 60%;
+        height: 90%;
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .home-title-outer {
+        height: 130px;
+    }
+
+    .main-title {
+        font-size: 55px;
+    }
+
+    .home-self-outer {
+        height: 650px;
+
+    }
+
+    .home-self-inner {
+        width: 60%;
+        height: 90%;
+        margin-top: -50px;
+
+    }
+
+    .content-title {
+        font-size: 35px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 32px;
+
+
+    }
+
+    .content {
+
+        font-size: 25px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 190px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 80%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 80px;
+        height: 80px;
+
+    }
+
+
+    .common-navigate {
+        width: 60%;
+        height: 90%;
+    }
+
+
+}
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+    .home-title-outer {
+        height: 120px;
+    }
+
+    .main-title {
+        font-size: 45px;
+    }
+
+    .home-self-outer {
+        height: 620px;
+
+    }
+
+    .home-self-inner {
+        width: 70%;
+        height: 80%;
+        margin-top: -50px;
+
+    }
+
+    .content-title {
+        font-size: 32px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 30px;
+
+
+    }
+
+    .content {
+
+        font-size: 23px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 190px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 80%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 60px;
+        height: 60px;
+
+    }
+
+
+    .common-navigate {
+        width: 80%;
+        height: 80%;
+    }
+
+}
+
+
+@media (min-width: 414px) and (max-width: 567px) {
+    .home-title-outer {
+        height: 100px;
+    }
+
+    .main-title {
+        font-size: 36px;
+    }
+
+    .home-self-outer {
+        height: 620px;
+
+    }
+
+    .home-self-inner {
+        width: 90%;
+        height: 80%;
+        margin-top: -50px;
+
+    }
+
+    .content-title {
+        font-size: 30px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 28px;
+
+
+    }
+
+    .content {
+
+        font-size: 21px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 190px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 100%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .common-navigate {
+        width: 80%;
+        height: 80%;
+    }
+
+}
+
+
+
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .home-title-outer {
+        height: 100px;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .home-self-outer {
+        height: 600px;
+
+    }
+
+    .home-self-inner {
+        width: 90%;
+        height: 75%;
+        margin-top: -50px;
+
+    }
+
+    .content-title {
+        font-size: 28px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 26px;
+
+
+    }
+
+    .content {
+
+        font-size: 19px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 190px;
+
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 100%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .common-navigate {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .home-title-outer {
+        height: 100px;
+    }
+
+    .main-title {
+        font-size: 27px;
+    }
+
+    .home-self-outer {
+        height: 600px;
+
+    }
+
+    .home-self-inner {
+        width: 90%;
+        height: 60%;
+        margin-top: -80px;
+
+    }
+
+    .content-title {
+        font-size: 23px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 20px;
+
+
+    }
+
+    .content {
+
+        font-size: 15px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 150px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 100%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .common-navigate {
+        width: 80%;
+        height: 80%;
+    }
+
+
+}
+
+
+
+@media (max-width: 319px) {
+    .home-title-outer {
+        height: 100px;
+    }
+
+    .main-title {
+        font-size: 27px;
+    }
+
+    .home-self-outer {
+        height: 600px;
+
+    }
+
+    .home-self-inner {
+        width: 90%;
+        height: 60%;
+        margin-top: -80px;
+
+    }
+
+    .content-title {
+        font-size: 23px;
+
+
+    }
+
+    .content-jobrole {
+        font-size: 20px;
+
+
+    }
+
+    .content {
+
+        font-size: 15px;
+
+    }
+
+    /* *********************** navigate part ******************** */
+    .home-navigate-button-outer {
+
+        height: 150px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .navigate-button {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 100%;
+        height: 90%;
+    }
+
+    .left-arrow {
+        width: 25%;
+    }
+
+    .left-arrow-icon {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .right-arrow {
+        width: 25%;
+    }
+
+    .right-arrow-icon {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .common-navigate {
+        width: 80%;
+        height: 80%;
+    }
+
+
+
+
+
+
+
+}
+
+/* ************************************************** animation part ************************************************************** */
+
+@keyframes navigate-arrow-function {
+    to {
+
+        transform: translateX(0);
+    }
+
+    from {
+
+        transform: translateX(50px);
+    }
+}
+
+
+@keyframes title-animation {
+
+    0% {
+
+        font-size: 80px;
+    }
+
+    50% {}
+
+    100% {
+
+        font-size: 100px;
+
+
+    }
+}

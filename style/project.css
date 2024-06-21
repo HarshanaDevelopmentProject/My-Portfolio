@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.project-outer {
+    width: 100%;
+    height: auto;
+    border: 3px solid red;
+    display: flex;
+    background-color: black;
+
+
+
+
+}
+
+.project-inner {
+    width: 98%;
+    height: 100%;
+    border: 1px solid green;
+}
+
+.titles {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ================================================= ongoing project area ====================================================== */
+
+.ongoing-project-outer {
+    width: 100%;
+    height: auto;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* ================================================= completed project area ====================================================== */
+
+.complete-project-outer {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(4, 79, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+/* **************************************** card style part ********************************************************************** */
+.card-style {
+    width: 50%;
+    border: 6px solid rgb(4, 150, 113) !important;
+    border-radius: 30px !important;
+    animation: box-shadow-animation 2S infinite linear;
+}
+
+.card-image {
+    width: 200px;
+    height: 500px;
+
+}
+
+
+/* ================================================= responcive part ================================================================================================= */
+
+
+@media (min-width: 1920px) and (max-width: 2560px) {}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {}
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .titles {
+        font-size: 50px;
+
+    }
+
+    .card-style {
+        width: 50%;
+        height: auto !important;
+    }
+
+    .card-image {
+        width: 100% !important;
+        height: 400px !important;
+        border-radius: 30px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .titles {
+        font-size: 50px;
+    }
+
+    .card-style {
+        width: 70%;
+        height: auto !important;
+    }
+
+    .card-image {
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 30px;
+    }
+
+}
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+    .titles {
+        font-size: 40px;
+    }
+
+    .card-style {
+        width: 75%;
+        height: auto !important;
+    }
+
+    .card-image {
+        width: 100% !important;
+        height: 250px !important;
+        border-radius: 30px;
+    }
+
+}
+
+
+@media (min-width: 414px) and (max-width: 567px) {
+    .titles {
+        font-size: 35px;
+    }
+
+    .card-style {
+        width: 80%;
+        height: auto !important;
+    }
+
+    .card-image {
+        width: 100% !important;
+        height: 200px !important;
+        border-radius: 30px;
+    }
+
+}
+
+
+
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .titles {
+        font-size: 30px;
+    }
+
+    .card-style {
+        width: 80%;
+        height: auto !important;
+    }
+
+    .card-image {
+        width: 100% !important;
+        height: 200px !important;
+        border-radius: 30px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .titles {
+        font-size: 25px;
+    }
+
+    .card-style {
+        width: 80%;
+        height: auto !important;
+    }
+
+    .card-image {
+        width: 100% !important;
+        height: 200px !important;
+        border-radius: 30px;
+    }
+}
+
+
+@media (max-width: 319px) {
+    .titles {
+        font-size: 25px;
+    }
+
+    .card-style {
+        width: 80%;
+        height: auto !important;
+    }
+
+    .card-image {
+        width: 100% !important;
+        height: 200px !important;
+        border-radius: 30px;
+    }
+
+}
+
+/* ===================================================animation part =============================================================== */
+
+@keyframes box-shadow-animation {
+    0% {
+        box-shadow: 1px 1px 50px rgba(101, 241, 101, 0.63);
+        
+        
+    }
+  
+    50% {
+        box-shadow: 20px 20px 50px rgb(1, 90, 1)
+    }
+  
+
+    100% {
+        box-shadow: 1px 1px 50px rgba(101, 241, 101, 0.63);
+        
+        
+    }
+}

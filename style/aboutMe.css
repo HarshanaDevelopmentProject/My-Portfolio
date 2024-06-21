@@ -1,0 +1,1198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about-outer {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.top-arrow {
+    display: none;
+    position: fixed;
+    width: 100px;
+    top: 75vh;
+    left: 85vw;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.aboutMe-titles {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+/* **************************************************** top bar section ************************************************************************* */
+.top-bar-outer {
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(8, 14, 4);
+    z-index: 1;
+    background-image: url("/images/portfolio-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-bar-inner {
+    width: 100%;
+    height: 95%;
+    border: 2px solid rgb(128, 0, 0);
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.top-layer {
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(249, 253, 12);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+.navigate-test:hover {
+    text-decoration: underline;
+    transition-duration: 5s;
+}
+
+.bottom-layer {
+    width: 100%;
+    height: 90%;
+    border: 1px solid aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-layer-test {
+    color: white;
+    font-size: 100px;
+    opacity: 1;
+    -webkit-text-stroke: 4px blue;
+    text-shadow: 5px 5px 20px yellow;
+}
+
+
+
+
+.navigate-test-side {
+    margin: 50px 0 0 20px;
+    cursor: pointer;
+}
+
+.navigate:hover {
+    cursor: pointer;
+}
+
+.top-bar-menu-icon {
+    display: none;
+}
+
+.side-bar-outer {
+    width: 45%;
+    height: 100vh;
+    border: 2px solid red;
+    position: absolute;
+    left: 0;
+    display: none;
+    color: white;
+    background-color: rgb(9, 107, 107);
+    z-index: 1;
+    animation: sidebarAnimation 1s linear;
+}
+
+.side-bar-inner {
+    width: 90%;
+    height: 80%;
+    border: 1px solid black;
+    margin: 0 0 0 10px;
+
+}
+
+.bar-close {
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navigate-part {
+    width: 100%;
+    height: 80%;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navigate-test {
+
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+
+
+/* ********************************************** about me part ************************************************************************ */
+.my-self-outer {
+    width: 100%;
+    height: 800px;
+    border: 1px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-self-inner {
+    width: 90%;
+    height: 90%;
+    border: 5px solid green;
+    position: relative;
+    border-radius: 50px;
+
+
+
+}
+
+.my-self-title-outer {
+    width: 100%;
+    height: 10%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-me-content-outer {
+    width: 100%;
+    height: 90%;
+    border: 1px solid rgb(0, 255, 200);
+    display: flex;
+
+}
+
+.profile-image-outer {
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 400px;
+    border-radius: 30px;
+    border: 5px solid green;
+    box-shadow: 3px 3px 100px green;
+}
+
+.self-details-outer {
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.self-title {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.self-content {
+
+    color: white;
+    justify-self: auto;
+}
+
+.one-detail-outer {
+    width: 100%;
+    height: space;
+    border: 1px solid greenyellow;
+    display: flex;
+}
+
+.detail-right-side {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.detail-left-side {
+    font-size: 28px;
+    margin-left: 20px;
+    color: white;
+}
+
+.self-button-outer {
+    width: 100%;
+    height: 100px;
+    border: 1px solid aqua;
+}
+
+.cv-download-btn {
+    width: 200px;
+    height: 50px;
+    border: 4px solid rgb(156, 12, 156);
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    animation: cvDownloadBtnAnimation 5s infinite linear;
+
+}
+
+/* .cv-download-btn:hover {
+    background-color: rgb(156, 12, 156);
+    transition-duration: 1.5s;
+} */
+
+
+
+/* ********************************************** education section ************************************************************************* */
+.education-outer {
+    width: 100%;
+    height: 700px;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-inner {
+    width: 90%;
+    height: 90%;
+    border: 1px solid red;
+}
+
+.education-title-outer {
+    width: 100%;
+    height: 100px;
+    border: 1px solid purple;
+}
+
+.education-details-outer {
+    width: 100%;
+    height: 80%;
+    border: 1px solid green;
+    display: flex;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 80%;
+    border: 2px solid white;
+    margin: 0 0 0 200px;
+}
+
+.edu-details-set {
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-detail-top {
+    font-size: 40px;
+}
+
+.edu-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+}
+
+.edu-detail-bottom {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+/* ********************************************** Certificate section *********************************************************************** */
+.certificate-outer {
+    width: 100%;
+    height: auto;
+    border: 1px solid violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.certificate-inner {
+    width: 95%;
+    height: 90%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-btn {
+    color: #18D42E !important;
+    background-color: red !important;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+/* ********************************************** Social Account section ******************************************************************** */
+.social-account-outer {
+    width: 100%;
+    height: 500px;
+    border: 1px solid violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-inner {
+    width: 100%;
+    height: 90%;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.social-account-list-outer {
+    width: 100%;
+    height: 70%;
+    border: 1px solid red;
+
+
+}
+
+.account-outer {
+
+    height: 100% !important;
+    border: 1px solid green;
+
+}
+
+.logo {
+    width: 100%;
+    height: 60%;
+    border: 1px solid rgb(128, 115, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 70px rgb(211, 181, 50);
+
+}
+
+.logo-test {
+    width: 100%;
+    height: 40%;
+    border: 1px solid rgb(128, 115, 0);
+}
+
+.account-name {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ================================================= responcive part ================================================================================================= */
+
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+
+
+    /* ***************************************** top bar **********************************************  */
+    .top-bar-outer {
+        height: 950px;
+    }
+
+    .navigate-test {
+        font-size: 27px;
+        margin: 0 15px 0 50px;
+    }
+
+
+}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+
+    /* ***************************************** top bar **********************************************  */
+    .top-bar-outer {
+        height: 750px;
+    }
+
+    .navigate-test {
+        font-size: 27px;
+        margin: 0 15px 0 50px;
+    }
+
+    /* ***  Certificate Area *****  */
+    .certificate-outer {
+        height: 800px;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+
+    /* ******************* top bar *************  */
+    .top-bar-outer {
+        height: 700px;
+    }
+
+    .navigate-test {
+        font-size: 25px;
+        margin: 0 15px 0 30px;
+    }
+
+    .bottom-layer-test {
+        font-size: 70px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+    }
+
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .aboutMe-titles {
+        font-size: 50px;
+        text-shadow: 2px 3px 10px white;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+    }
+
+    /* ***************** top bar ****************  */
+    .top-bar-outer {
+        height: 600px;
+    }
+
+    .navigate-test {
+        font-size: 22px;
+        margin: 0 15px 0 15px;
+    }
+
+    .bottom-layer-test {
+        font-size: 60px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+    }
+
+
+
+    /* ***  social Account *****  */
+    .social-account-outer {
+        height: 300px;
+    }
+
+    .social-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 50%;
+        box-shadow: 3px 3px 50px rgb(211, 181, 50);
+
+    }
+
+    .account-name {
+        font-size: 25px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .aboutMe-titles {
+        font-size: 40px;
+        text-shadow: 2px 3px 10px white;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+    }
+
+    /* ***************** top bar ************  */
+    .top-bar-outer {
+        height: 500px;
+    }
+
+    .navigate-test {
+        font-size: 20px;
+        margin: 0 15px 0 10px;
+    }
+
+    .bottom-layer-test {
+        font-size: 50px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+    }
+
+
+    /* ***  About me Section *****  */
+    .my-self-outer {
+        height: 750px;
+    }
+
+    .my-self-inner {
+        height: auto;
+    }
+
+    .profile-image {
+        width: 250px;
+        margin-top: 60px;
+
+    }
+
+    .self-title {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .self-content {
+        font-size: 17px;
+    }
+
+    .detail-right-side {
+        font-size: 17px;
+
+    }
+
+    .detail-left-side {
+        font-size: 15px;
+
+    }
+
+    .cv-download-btn {
+        width: 170px;
+        height: 50px;
+        font-size: 18px;
+
+
+    }
+
+    /* ***  social Account *****  */
+    .social-account-outer {
+        height: 250px;
+    }
+
+    .social-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 55%;
+        box-shadow: 3px 3px 50px rgb(211, 181, 50);
+
+    }
+
+    .account-name {
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+    .aboutMe-titles {
+        font-size: 20px;
+        text-shadow: 3px 3px 10px white;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+
+    /* ************** top bar ****************  */
+    .top-bar-outer {
+        height: 430px;
+    }
+
+    .navigate-test {
+        font-size: 13px;
+        margin: 0 15px 0 15px;
+    }
+
+    .bottom-layer-test {
+        font-size: 40px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+    }
+
+    /* ***  About me Section *****  */
+    .my-self-outer {
+        height: 650px;
+    }
+
+    .my-self-inner {
+        height: auto;
+    }
+
+    .profile-image {
+        width: 200px;
+        margin-top: 60px;
+
+    }
+
+    .self-title {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .self-content {
+        font-size: 14px;
+    }
+
+    .detail-right-side {
+        font-size: 13px;
+
+    }
+
+    .detail-left-side {
+        font-size: 11px;
+
+    }
+
+    .cv-download-btn {
+        width: 130px;
+        height: 50px;
+        font-size: 14px;
+
+
+    }
+
+
+    /* ***  social Account *****  */
+    .social-account-outer {
+        height: 160px;
+    }
+
+    .social-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 55%;
+        box-shadow: 1px 1px 15px rgb(211, 181, 50);
+
+    }
+
+    .account-name {
+        font-size: 13px;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 414px) and (max-width: 567px) {
+    .aboutMe-titles {
+        font-size: 20px;
+        text-shadow: 3px 3px 10px white;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+
+    /* ********** top bar ********************  */
+    .top-bar-outer {
+        height: 360px;
+    }
+
+    .top-layer {
+        display: none;
+
+    }
+
+    .top-bar-menu-icon {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        margin: 15px 0 0 15px;
+    }
+
+    .navigate-test {
+        font-size: 20px;
+        margin-top: 25px;
+
+    }
+
+    .bottom-layer-test {
+        font-size: 30px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+
+    }
+
+
+    /* ***  About me Section *****  */
+    .my-self-outer {
+        height: 600px;
+    }
+
+    .my-self-inner {
+        height: auto;
+    }
+
+    .profile-image {
+        width: 150px;
+        margin-top: 50px;
+
+    }
+
+    .self-title {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .self-content {
+        font-size: 11px;
+    }
+
+    .detail-right-side {
+        font-size: 10px;
+
+    }
+
+    .detail-left-side {
+        font-size: 9px;
+
+    }
+
+    .cv-download-btn {
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+
+
+    }
+
+    /* ***  social Account *****  */
+    .social-account-outer {
+        height: 160px;
+    }
+
+    .social-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 55%;
+        box-shadow: 1px 1px 15px rgb(211, 181, 50);
+
+    }
+
+    .account-name {
+        font-size: 11px;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .aboutMe-titles {
+        font-size: 20px;
+        text-shadow: 3px 3px 10px white;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+
+    /* ***** top bar *********************  */
+    .top-bar-outer {
+
+        height: 350px;
+
+    }
+
+    .top-layer {
+        display: none;
+
+    }
+
+    .top-bar-menu-icon {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        margin: 15px 0 0 15px;
+    }
+
+    .navigate-test {
+        font-size: 18px;
+        margin-top: 22px;
+
+    }
+
+    .bottom-layer-test {
+        font-size: 26px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+    }
+
+    /* ***  About me Section *****  */
+    .my-self-outer {
+        height: 600px;
+    }
+
+    .my-self-inner {
+        height: auto;
+    }
+
+    .profile-image {
+        width: 130px;
+        margin-top: 50px;
+
+    }
+
+    .self-title {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .self-content {
+        font-size: 10px;
+    }
+
+    .detail-right-side {
+        font-size: 9px;
+
+    }
+
+    .detail-left-side {
+        font-size: 8px;
+
+    }
+
+    .cv-download-btn {
+        width: 100px;
+        height: 40px;
+        font-size: 11px;
+
+
+    }
+
+    /* ***  social Account *****  */
+    .social-account-outer {
+        height: 160px;
+    }
+
+    .social-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 55%;
+        box-shadow: 3px 3px 15px rgb(211, 181, 50);
+
+    }
+
+    .account-name {
+        font-size: 10px;
+    }
+
+
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .aboutMe-titles {
+        font-size: 20px;
+        text-shadow: 3px 3px 10px white;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+
+    /* **************** top bar**************  */
+    .top-bar-outer {
+
+        height: 300px;
+
+    }
+
+    .top-layer {
+        display: none;
+
+    }
+
+    .top-bar-menu-icon {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        margin: 15px 0 0 15px;
+    }
+
+    .navigate-test {
+        font-size: 15px;
+        margin-top: 20px;
+
+    }
+
+    .bottom-layer-test {
+        font-size: 23px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+    }
+
+    /* ***  About me Section *****  */
+    .my-self-outer {
+        height: 500px;
+    }
+
+    .my-self-inner {
+        height: auto;
+    }
+
+    .profile-image {
+        width: 100px;
+        margin-top: 50px;
+
+    }
+
+    .self-title {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    .self-content {
+        font-size: 8px;
+    }
+
+    .detail-right-side {
+        font-size: 8px;
+
+    }
+
+    .detail-left-side {
+        font-size: 7px;
+
+    }
+
+    .cv-download-btn {
+        width: 90px;
+        height: 30px;
+        font-size: 9px;
+
+
+    }
+
+    /* ***  social Account *****  */
+    .social-account-outer {
+        height: 130px;
+    }
+
+    .social-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 55%;
+        box-shadow: 2px 2px 15px rgb(211, 181, 50);
+    }
+
+    .account-name {
+        font-size: 9px;
+    }
+
+
+}
+
+
+@media (max-width: 319px) {
+
+    .aboutMe-titles {
+        font-size: 20px;
+        text-shadow: 3px 3px 10px white;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+
+    /* *** top bar*****  */
+    .top-bar-outer {
+        height: 250px;
+    }
+
+    .top-layer {
+        display: none;
+
+    }
+
+    .top-bar-menu-icon {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        margin: 15px 0 0 15px;
+    }
+
+    .navigate-test {
+        font-size: 15px;
+        margin-top: 20px;
+
+    }
+
+    .bottom-layer-test {
+        font-size: 23px;
+        -webkit-text-stroke: 1.2px blue;
+        text-shadow: 2px 2px 15px yellow;
+    }
+
+
+
+    /* ***  About me Section *****  */
+    .my-self-outer {
+        height: 500px;
+    }
+
+    .my-self-inner {
+        height: auto;
+    }
+
+    .profile-image {
+        width: 100px;
+        margin-top: 50px;
+
+    }
+
+    .self-title {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    .self-content {
+        font-size: 8px;
+    }
+
+    .detail-right-side {
+        font-size: 8px;
+
+    }
+
+    .detail-left-side {
+        font-size: 7px;
+
+    }
+
+    .cv-download-btn {
+        width: 90px;
+        height: 30px;
+        font-size: 9px;
+
+
+    }
+
+    /* ***  social Account *****  */
+    .social-account-outer {
+        height: 130px;
+    }
+
+    .social-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 53%;
+        box-shadow: 2px 2px 15px rgb(211, 181, 50);
+    }
+
+    .account-name {
+        font-size: 9px;
+    }
+
+}
+
+
+/* ******************************************************animation section ******************************************************************************** */
+@keyframes sidebarAnimation {
+    from {
+        transform: translate(-100px);
+    }
+
+    to {
+        transform: translate(0);
+    }
+
+}
+
+@keyframes cvDownloadBtnAnimation {
+    0% {
+        background-color: black;
+        border-color: #d418bd;
+    }
+
+    50% {
+        background-color: #d418bd;
+        border-color: #18D42E;
+    }
+
+    100% {
+        background-color: black;
+        border-color: #d418bd;
+    }
+}
