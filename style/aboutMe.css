@@ -39,7 +39,7 @@
     justify-content: end;
     background-color: rgb(8, 14, 4);
     z-index: 1;
-    background-image: url("/images/portfolio-background.jpeg");
+    background-image: url("../images/portfolio-background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
