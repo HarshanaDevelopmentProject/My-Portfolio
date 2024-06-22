@@ -51,18 +51,18 @@ setInterval(() => {
 
 
 document.getElementById("btn1").addEventListener("click", () => {
-    window.location.href = "/page/aboutMe.html"
+    window.location.href = "page/aboutMe.html"
 })
 
 document.getElementById("btn2").addEventListener("click", () => {
-    window.location.href = "/page/skill.html"
+    window.location.href = "page/skill.html"
 })
 document.getElementById("btn3").addEventListener("click", () => {
-    window.location.href = "/page/project.html"
+    window.location.href = "page/project.html"
 })
 
 document.getElementById("btn4").addEventListener("click", () => {
-    window.location.href = "/page/contact.html"
+    window.location.href = "page/contact.html"
 })
 
 
