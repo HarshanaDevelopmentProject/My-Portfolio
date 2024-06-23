@@ -13,12 +13,16 @@ document.getElementById('close-bar-icon').addEventListener("click",()=>{
 })
 
 window.addEventListener("scroll",()=>{
-    if(window.pageYOffset>500){
+    if(window.pageYOffset>200){
         document.getElementById("top-arrow").style.display="flex"
 
     }else{
         document.getElementById("top-arrow").style.display="none"
     }
+})
+
+document.getElementById('hire-btn').addEventListener("click",()=>{
+    window.location.href="../page/contact.html"
 })
 
 // ********************************************************social account part *****************************************************

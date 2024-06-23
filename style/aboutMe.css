@@ -79,6 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .bottom-layer-test {
@@ -87,6 +88,48 @@
     opacity: 1;
     -webkit-text-stroke: 4px blue;
     text-shadow: 5px 5px 20px yellow;
+}
+
+.bottom-btn-outer {
+    width: 100%;
+    height: 100px;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-download-btn-top {
+    width: 200px;
+    height: 50%;
+    border: 4px solid #aa0929;
+    border-radius: 30px;
+    background-color: #09AA8B;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.hire-btn {
+    width: 200px;
+    height: 50%;
+    border: 4px solid #aa0929;
+    border-radius: 30px;
+    background-color: rgba(0, 3, 0, 0);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.hire-btn:hover {
+    background-color: #09AA8B;
+    transition-duration: 1s;
 }
 
 
@@ -256,15 +299,22 @@
     width: 100%;
     height: 100px;
     border: 1px solid aqua;
+    display: flex;
+    align-items: center;
 }
 
 .cv-download-btn {
     width: 200px;
     height: 50px;
-    border: 4px solid rgb(156, 12, 156);
+    border: 5px solid rgb(156, 12, 156);
     border-radius: 30px;
     background-color: black;
     color: white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     animation: cvDownloadBtnAnimation 5s infinite linear;
 
 }
@@ -279,7 +329,7 @@
 /* ********************************************** education section ************************************************************************* */
 .education-outer {
     width: 100%;
-    height: 700px;
+    height: 800px;
     border: 1px solid tomato;
     display: flex;
     justify-content: center;
@@ -296,6 +346,9 @@
     width: 100%;
     height: 100px;
     border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .education-details-outer {
@@ -307,8 +360,8 @@
 
 .vertical-line {
     width: 2px;
-    height: 80%;
-    border: 2px solid white;
+    height: 100%;
+    border: 2px solid rgb(79, 105, 218);
     margin: 0 0 0 200px;
 }
 
@@ -319,6 +372,7 @@
 
 .edu-detail-top {
     font-size: 40px;
+    color: white;
 }
 
 .edu-logo {
@@ -328,6 +382,7 @@
 }
 
 .edu-detail-bottom {
+    color: white;
     font-size: 30px;
     margin-left: 5px;
 }
@@ -545,6 +600,13 @@
 
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
+    .top-arrow {
+        width: 80px;
+        top: 85vh;
+        left: 78vw;
+    }
+
     .aboutMe-titles {
         font-size: 40px;
         text-shadow: 2px 3px 10px white;
@@ -610,6 +672,43 @@
 
     }
 
+    /* ***  education details *****  */
+    .education-title-outer {
+        height: 100px;
+
+    }
+
+    .vertical-line {
+        width: 2px;
+        height: 100%;
+        margin: 0 0 0 60px;
+
+
+    }
+
+    .edu-detail-top {
+        font-size: 30px;
+
+    }
+
+    .edu-logo {
+        width: 30px;
+        height: 30px;
+        margin: 0 0 0 30px;
+    }
+
+    .edu-detail-bottom {
+
+        font-size: 25px;
+        margin: 0 0 0 12px;
+    }
+
+
+
+
+
+
+
     /* ***  social Account *****  */
     .social-account-outer {
         height: 250px;
@@ -641,8 +740,16 @@
 
 
 @media (min-width: 568px) and (max-width: 767px) {
+
+    .top-arrow {
+        width: 70px;
+        top: 85vh;
+        left: 78vw;
+    }
+
+
     .aboutMe-titles {
-        font-size: 20px;
+        font-size: 35px;
         text-shadow: 3px 3px 10px white;
         -webkit-text-stroke: 1px rgb(255, 255, 255);
     }
@@ -662,6 +769,7 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
+    
 
     /* ***  About me Section *****  */
     .my-self-outer {
@@ -705,6 +813,41 @@
 
     }
 
+    /* ***  education details *****  */
+    .education-title-outer {
+        height: 100px;
+
+    }
+
+    .vertical-line {
+        width: 2px;
+        height: 100%;
+        margin: 0 0 0 30px;
+
+
+    }
+
+    .edu-detail-top {
+        font-size: 30px;
+
+    }
+
+    .edu-logo {
+        width: 30px;
+        height: 30px;
+        margin: 0 0 0 30px;
+    }
+
+    .edu-detail-bottom {
+
+        font-size: 25px;
+        margin: 0 0 0 12px;
+    }
+
+
+
+
+
 
     /* ***  social Account *****  */
     .social-account-outer {
@@ -737,8 +880,15 @@
 
 
 @media (min-width: 414px) and (max-width: 567px) {
+
+    .top-arrow {
+        width: 65px;
+        top: 75vh;
+        left: 75vw;
+    }
+
     .aboutMe-titles {
-        font-size: 20px;
+        font-size: 26px;
         text-shadow: 3px 3px 10px white;
         -webkit-text-stroke: 1px rgb(255, 255, 255);
     }
@@ -772,6 +922,11 @@
         text-shadow: 2px 2px 15px yellow;
 
     }
+    .bottom-layer-btn{
+        width: 130px;
+       height: 40%;
+       font-size: 15px;
+   }
 
 
     /* ***  About me Section *****  */
@@ -816,6 +971,39 @@
 
     }
 
+    /* ***  education details *****  */
+    .education-title-outer {
+        height: 80px;
+
+    }
+
+    .vertical-line {
+        width: 2px;
+        height: 80%;
+        margin: 0 0 0 30px;
+
+
+    }
+
+    .edu-detail-top {
+        font-size: 25px;
+
+    }
+
+    .edu-logo {
+        width: 25px;
+        height: 25px;
+        margin: 0 0 0 10px;
+    }
+
+    .edu-detail-bottom {
+
+        font-size: 20px;
+        margin: 0 0 0 12px;
+    }
+
+
+
     /* ***  social Account *****  */
     .social-account-outer {
         height: 160px;
@@ -847,6 +1035,12 @@
 
 
 @media (min-width: 375px) and (max-width: 413px) {
+    .top-arrow {
+        width: 65px;
+        top: 75vh;
+        left: 75vw;
+    }
+
     .aboutMe-titles {
         font-size: 20px;
         text-shadow: 3px 3px 10px white;
@@ -883,6 +1077,12 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
+    .bottom-layer-btn{
+        width: 120px;
+       height: 35%;
+       font-size: 13px;
+   }
+
 
     /* ***  About me Section *****  */
     .my-self-outer {
@@ -926,6 +1126,38 @@
 
     }
 
+    /* ***  education details *****  */
+    .education-title-outer {
+        height: 80px;
+
+    }
+
+    .vertical-line {
+        width: 2px;
+        height: 80%;
+        margin: 0 0 0 30px;
+
+
+    }
+
+    .edu-detail-top {
+        font-size: 20px;
+
+    }
+
+    .edu-logo {
+        width: 25px;
+        height: 25px;
+        margin: 0 0 0 10px;
+    }
+
+    .edu-detail-bottom {
+
+        font-size: 17px;
+        margin: 0 0 0 12px;
+    }
+
+
     /* ***  social Account *****  */
     .social-account-outer {
         height: 160px;
@@ -955,6 +1187,12 @@
 
 
 @media (min-width: 320px) and (max-width: 374px) {
+    .top-arrow {
+        width: 60px;
+        top: 75vh;
+        left: 75vw;
+    }
+
     .aboutMe-titles {
         font-size: 20px;
         text-shadow: 3px 3px 10px white;
@@ -991,6 +1229,11 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
+    .bottom-layer-btn{
+        width: 100px;
+       height: 30%;
+       font-size: 11px;
+   }
 
     /* ***  About me Section *****  */
     .my-self-outer {
@@ -1034,6 +1277,38 @@
 
     }
 
+    /* ***  education details *****  */
+    .education-title-outer {
+        height: 80px;
+
+    }
+
+    .vertical-line {
+        width: 2px;
+        height: 80%;
+        margin: 0 0 0 30px;
+
+
+    }
+
+    .edu-detail-top {
+        font-size: 20px;
+
+    }
+
+    .edu-logo {
+        width: 23px;
+        height: 23px;
+        margin: 0 0 0 10px;
+    }
+
+    .edu-detail-bottom {
+
+        font-size: 15px;
+        margin: 0 0 0 12px;
+    }
+
+
     /* ***  social Account *****  */
     .social-account-outer {
         height: 130px;
@@ -1062,6 +1337,11 @@
 
 
 @media (max-width: 319px) {
+    .top-arrow {
+        width: 60px;
+        top: 75vh;
+        left: 75vw;
+    }
 
     .aboutMe-titles {
         font-size: 20px;
@@ -1097,10 +1377,15 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
+    .bottom-layer-btn{
+         width: 100px;
+        height: 30%;
+        font-size: 11px;
+    }
 
 
 
-    /* ***  About me Section *****  */
+ /* ***  About me Section *****  */
     .my-self-outer {
         height: 500px;
     }
@@ -1140,6 +1425,37 @@
         font-size: 9px;
 
 
+    }
+
+    /* ***  education details *****  */
+    .education-title-outer {
+        height: 80px;
+
+    }
+
+    .vertical-line {
+        width: 2px;
+        height: 80%;
+        margin: 0 0 0 30px;
+
+
+    }
+
+    .edu-detail-top {
+        font-size: 20px;
+
+    }
+
+    .edu-logo {
+        width: 23px;
+        height: 23px;
+        margin: 0 0 0 10px;
+    }
+
+    .edu-detail-bottom {
+
+        font-size: 15px;
+        margin: 0 0 0 12px;
     }
 
     /* ***  social Account *****  */
