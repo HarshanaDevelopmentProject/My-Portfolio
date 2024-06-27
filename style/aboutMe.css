@@ -6,8 +6,7 @@
 .about-outer {
     width: 100%;
     height: auto;
-    border: 1px solid red;
-    background-color: rgba(0, 0, 0, 1);
+     background-color: rgba(0, 0, 0, 1);
 }
 
 .top-arrow {
@@ -31,10 +30,19 @@
     font-size: 50px;
 }
 
+.my-logo {
+    width: 80px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 136, 0, 0.534);
+    top: 20px;
+    left: 50px;
+    z-index: 1;
+}
+
 /* **************************************************** top bar section ************************************************************************* */
 .top-bar-outer {
     width: 100%;
-    border: 1px solid blue;
     display: flex;
     justify-content: end;
     background-color: rgb(8, 14, 4);
@@ -48,7 +56,6 @@
 .top-bar-inner {
     width: 100%;
     height: 95%;
-    border: 2px solid rgb(128, 0, 0);
     display: flex;
     flex-direction: column;
 
@@ -59,8 +66,7 @@
 .top-layer {
     width: 100%;
     height: 10%;
-    border: 1px solid rgb(249, 253, 12);
-    display: flex;
+   display: flex;
     justify-content: end;
     align-items: center;
 }
@@ -75,8 +81,7 @@
 .bottom-layer {
     width: 100%;
     height: 90%;
-    border: 1px solid aqua;
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -93,7 +98,6 @@
 .bottom-btn-outer {
     width: 100%;
     height: 100px;
-    border: 1px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,12 +155,12 @@
 .side-bar-outer {
     width: 45%;
     height: 100vh;
-    border: 2px solid red;
+    border-right: 6px solid rgba(56, 23, 4, 0.781);
     position: absolute;
     left: 0;
     display: none;
     color: white;
-    background-color: rgb(9, 107, 107);
+    background-color: rgba(0, 0, 0, 0.801);
     z-index: 1;
     animation: sidebarAnimation 1s linear;
 }
@@ -164,7 +168,6 @@
 .side-bar-inner {
     width: 90%;
     height: 80%;
-    border: 1px solid black;
     margin: 0 0 0 10px;
 
 }
@@ -172,7 +175,6 @@
 .bar-close {
     width: 100%;
     height: 50px;
-    border: 1px solid red;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -181,7 +183,7 @@
 .navigate-part {
     width: 100%;
     height: 80%;
-    border: 1px solid orange;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,18 +204,18 @@
 /* ********************************************** about me part ************************************************************************ */
 .my-self-outer {
     width: 100%;
-    height: 800px;
-    border: 1px solid aqua;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
 .my-self-inner {
     width: 90%;
     height: 90%;
-    border: 5px solid green;
+    /* border: 5px solid green; */
     position: relative;
     border-radius: 50px;
 
@@ -224,8 +226,7 @@
 .my-self-title-outer {
     width: 100%;
     height: 10%;
-    border: 1px solid blue;
-    display: flex;
+ display: flex;
     justify-content: center;
     align-items: center;
 
@@ -234,16 +235,14 @@
 .about-me-content-outer {
     width: 100%;
     height: 90%;
-    border: 1px solid rgb(0, 255, 200);
-    display: flex;
+   display: flex;
 
 }
 
 .profile-image-outer {
     width: 50%;
     height: 100%;
-    border: 1px solid red;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -258,8 +257,7 @@
 .self-details-outer {
     width: 50%;
     height: 100%;
-    border: 1px solid red;
-    display: flex;
+   display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -279,7 +277,6 @@
 .one-detail-outer {
     width: 100%;
     height: space;
-    border: 1px solid greenyellow;
     display: flex;
 }
 
@@ -298,7 +295,6 @@
 .self-button-outer {
     width: 100%;
     height: 100px;
-    border: 1px solid aqua;
     display: flex;
     align-items: center;
 }
@@ -330,8 +326,7 @@
 .education-outer {
     width: 100%;
     height: 800px;
-    border: 1px solid tomato;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -339,14 +334,13 @@
 .education-inner {
     width: 90%;
     height: 90%;
-    border: 1px solid red;
+    
 }
 
 .education-title-outer {
     width: 100%;
     height: 100px;
-    border: 1px solid purple;
-    display: flex;
+      display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -354,7 +348,6 @@
 .education-details-outer {
     width: 100%;
     height: 80%;
-    border: 1px solid green;
     display: flex;
 }
 
@@ -391,8 +384,7 @@
 .certificate-outer {
     width: 100%;
     height: auto;
-    border: 1px solid violet;
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -401,8 +393,7 @@
 .certificate-inner {
     width: 95%;
     height: 90%;
-    border: 1px solid red;
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -420,7 +411,6 @@
 .social-account-outer {
     width: 100%;
     height: 500px;
-    border: 1px solid violet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,14 +419,13 @@
 .social-inner {
     width: 100%;
     height: 90%;
-    border: 1px solid red;
-    background-color: black;
+   background-color: black;
 }
 
 .social-account-list-outer {
     width: 100%;
     height: 70%;
-    border: 1px solid red;
+ 
 
 
 }
@@ -444,14 +433,13 @@
 .account-outer {
 
     height: 100% !important;
-    border: 1px solid green;
+   
 
 }
 
 .logo {
     width: 100%;
     height: 60%;
-    border: 1px solid rgb(128, 115, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -470,7 +458,7 @@
 .logo-test {
     width: 100%;
     height: 40%;
-    border: 1px solid rgb(128, 115, 0);
+   
 }
 
 .account-name {
@@ -508,6 +496,13 @@
 
 
     /* ***************************************** top bar **********************************************  */
+    .my-logo {
+        width: 55px;
+        top: 20px;
+        left: 50px;
+
+    }
+
     .top-bar-outer {
         height: 750px;
     }
@@ -528,6 +523,13 @@
 
 
     /* ******************* top bar *************  */
+    .my-logo {
+        width: 52px;
+        top: 20px;
+        left: 50px;
+
+    }
+
     .top-bar-outer {
         height: 700px;
     }
@@ -555,6 +557,13 @@
     }
 
     /* ***************** top bar ****************  */
+    .my-logo {
+        width: 42px;
+        top: 20px;
+        left: 30px;
+
+    }
+
     .top-bar-outer {
         height: 600px;
     }
@@ -614,6 +623,13 @@
     }
 
     /* ***************** top bar ************  */
+    .my-logo {
+        width: 39px;
+        top: 15px;
+        left: 30px;
+
+    }
+
     .top-bar-outer {
         height: 500px;
     }
@@ -755,6 +771,12 @@
     }
 
     /* ************** top bar ****************  */
+    .my-logo {
+        width: 31px;
+        top: 15px;
+        left: 30px;
+
+    }
     .top-bar-outer {
         height: 430px;
     }
@@ -769,7 +791,7 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
-    
+
 
     /* ***  About me Section *****  */
     .my-self-outer {
@@ -894,6 +916,12 @@
     }
 
     /* ********** top bar ********************  */
+    .my-logo {
+        width: 34px;
+        top: 15px;
+        left: 350px;
+
+    }
     .top-bar-outer {
         height: 360px;
     }
@@ -922,11 +950,12 @@
         text-shadow: 2px 2px 15px yellow;
 
     }
-    .bottom-layer-btn{
+
+    .bottom-layer-btn {
         width: 130px;
-       height: 40%;
-       font-size: 15px;
-   }
+        height: 40%;
+        font-size: 15px;
+    }
 
 
     /* ***  About me Section *****  */
@@ -1048,6 +1077,12 @@
     }
 
     /* ***** top bar *********************  */
+    .my-logo {
+        width: 35px;
+        top: 15px;
+        left: 330px;
+
+    }
     .top-bar-outer {
 
         height: 350px;
@@ -1077,11 +1112,12 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
-    .bottom-layer-btn{
+
+    .bottom-layer-btn {
         width: 120px;
-       height: 35%;
-       font-size: 13px;
-   }
+        height: 35%;
+        font-size: 13px;
+    }
 
 
     /* ***  About me Section *****  */
@@ -1200,6 +1236,12 @@
     }
 
     /* **************** top bar**************  */
+    .my-logo {
+        width: 37px;
+        top: 19px;
+        left: 250px;
+
+    }
     .top-bar-outer {
 
         height: 300px;
@@ -1229,11 +1271,12 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
-    .bottom-layer-btn{
+
+    .bottom-layer-btn {
         width: 100px;
-       height: 30%;
-       font-size: 11px;
-   }
+        height: 30%;
+        font-size: 11px;
+    }
 
     /* ***  About me Section *****  */
     .my-self-outer {
@@ -1377,15 +1420,16 @@
         -webkit-text-stroke: 1.2px blue;
         text-shadow: 2px 2px 15px yellow;
     }
-    .bottom-layer-btn{
-         width: 100px;
+
+    .bottom-layer-btn {
+        width: 100px;
         height: 30%;
         font-size: 11px;
     }
 
 
 
- /* ***  About me Section *****  */
+    /* ***  About me Section *****  */
     .my-self-outer {
         height: 500px;
     }
