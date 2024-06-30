@@ -13,40 +13,38 @@
 .back-btn {
     position: fixed;
     z-index: 1;
-    
-    width: 100px;
-    height: 50px;
+
+    width: 150px;
+    height: 70px;
     border: 3px solid red;
     border-radius: 20px;
-    font-size: 20px;
-    font-family: "Playwrite ZA", cursive;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aqua;
-    background-color: rgba(212, 205, 112, 0);
+    background-color: rgba(236, 3, 3, 0.25);
+
+
+    &:hover {
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        background-color: red;
+        transition-duration: 0.5s;
+        border: 3px solid rgba(0, 255, 255, 0.438);
+    }
 }
 
-.back-btn:hover {
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    background-color: red;
-    transition-duration: 0.5s;
-    border: 3px solid rgba(0, 255, 255, 0.438);
 
-
-}
 
 @media (max-width:500px) {
     .main-title-style {
-      
+
 
         text-shadow: 5px 6px 15px rgb(6, 243, 85);
         -webkit-text-stroke: 4px rgba(115, 255, 0, 0.548);
     }
-   
+
 }
 
 
@@ -54,43 +52,22 @@
 @media (min-width: 1920px) and (max-width: 2560px) {}
 
 
-@media (min-width: 1440px) and (max-width: 1919px) {
- 
+@media (min-width: 1440px) and (max-width: 1919px) {}
 
 
-}
+@media (min-width: 1280px) and (max-width: 1439px) {}
 
 
-@media (min-width: 1280px) and (max-width: 1439px) {
+@media (min-width: 1024px) and (max-width: 1279px) {}
 
 
-}
+@media (min-width: 768px) and (max-width: 1023px) {}
 
 
-@media (min-width: 1024px) and (max-width: 1279px) {
- 
+@media (min-width: 568px) and (max-width: 767px) {}
 
 
-
-}
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
- 
-
-
-}
-
-
-@media (min-width: 568px) and (max-width: 767px) {
-
-}
-
-
-@media (min-width: 414px) and (max-width: 567px) {
-    
-
-}
+@media (min-width: 414px) and (max-width: 567px) {}
 
 
 
@@ -98,9 +75,9 @@
 @media (min-width: 375px) and (max-width: 413px) {
     .back-btn {
         width: 90px;
-       height: 50px;
-       font-size: 17px;
-     }
+        height: 50px;
+        font-size: 17px;
+    }
 
 
 }
@@ -109,9 +86,9 @@
 @media (min-width: 320px) and (max-width: 374px) {
     .back-btn {
         width: 85px;
-       height: 45px;
-       font-size: 16px;
-     }
+        height: 45px;
+        font-size: 16px;
+    }
 
 
 }
@@ -120,9 +97,9 @@
 @media (max-width: 319px) {
 
     .back-btn {
-         width: 80px;
+        width: 80px;
         height: 40px;
         font-size: 15px;
-      }
+    }
 
 }
