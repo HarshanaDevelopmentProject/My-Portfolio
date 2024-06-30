@@ -30,3 +30,8 @@ document.getElementById('hire-btn').addEventListener("click",()=>{
 document.getElementById('linkedin-icon').addEventListener("click",()=>{
     window.open('https://www.linkedin.com/')
 })
+
+
+document.getElementById('skill-btn').addEventListener("click",()=>{
+    location.href="../page/skill.html"
+})

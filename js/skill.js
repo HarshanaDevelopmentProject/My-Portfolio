@@ -40,5 +40,11 @@ var options = {
   
   var chart = new ApexCharts(document.getElementById('skill-list'), options);
   chart.render();
+
+
+  document.getElementById('project-btn').addEventListener("click",()=>{
+    location.href="../page/project.html"
+})
+
   
   
