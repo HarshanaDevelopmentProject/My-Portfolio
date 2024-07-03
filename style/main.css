@@ -12,6 +12,10 @@
     width: 100%;
     height: 100vh;
     background-color: black;
+    background-image: url("../images/main-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 
 }
@@ -48,7 +52,7 @@
 /* *********************************************introduction section ****************************************************** */
 .home-self-outer {
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,14 +62,13 @@
 .home-self-inner {
     width: 40%;
     height: 95%;
-    border: 5px solid rgb(1, 236, 205);
+    border: 5px solid rgb(185, 7, 255);
     border-radius: 50px;
     display: flex;
     overflow: hidden;
     background: linear-gradient(83deg, rgba(0, 0, 3, 0.938) 35%, rgba(171, 230, 171, 0.637) 80%), white;
     position: relative;
-    box-shadow: 2px 3px 20px aqua;
-
+    box-shadow: 6px 8px 30px rgba(185, 7, 255, 0.534);
 
 }
 
@@ -90,7 +93,7 @@
 .content-title {
     font-size: 60px;
     font-style: italic;
-    color: white;
+    color: rgb(49, 243, 10);
     animation: word-moving 2s linear;
 
 
@@ -98,7 +101,7 @@
 
 .content-jobrole {
     font-size: 40px;
-    color: white;
+    color: rgb(223, 219, 23);
 }
 
 
@@ -108,7 +111,7 @@
     font-size: 25px;
     text-align: justify;
     font-weight: bold;
-    color: rgb(160, 233, 65);
+    color: rgb(255, 255, 255);
     animation: word-moving 2.5s linear;
 }
 
@@ -147,6 +150,15 @@
 .left-arrow-icon {
     width: 100px;
     height: 100px;
+
+    &:hover {
+        cursor: pointer;
+        border: 6px solid rgb(47, 201, 8);
+        border-radius: 50%;
+        transition-duration: 0.5s;
+        box-shadow: 2px 3px 20px greenyellow;
+    }
+
     /* animation: navigate-arrow-function 1.5s 2s infinite linear; */
 }
 
@@ -157,12 +169,23 @@
     justify-content: start;
     align-items: center;
     padding: 0 0 0 50px;
+
+
 }
 
 .right-arrow-icon {
     width: 100px;
     height: 100px;
     rotate: 180deg;
+
+    &:hover {
+        cursor: pointer;
+        border: 6px solid rgb(47, 201, 8);
+        border-radius: 50%;
+        transition-duration: 0.5s;
+        box-shadow: 2px 3px 20px greenyellow;
+    }
+
     /* animation: navigate-arrow-function 1.5s 2s infinite linear; */
 }
 
@@ -173,8 +196,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 2px solid rgba(69, 139, 22, 0.705);
-    box-shadow: 5px 5px 20px green;
+    border: 2px solid rgba(180, 3, 224, 0.705);
+    box-shadow: 5px 5px 20px rgba(183, 0, 255, 0.438);
     cursor: pointer;
 
 
@@ -371,7 +394,7 @@
     .home-self-inner {
         width: 50%;
         height: 600px;
-        
+
 
     }
 
@@ -452,12 +475,12 @@
         font-size: 65px;
     }
 
-  
+
 
     .home-self-inner {
         width: 50%;
-        height:600px;
-    
+        height: 600px;
+
 
     }
 
@@ -540,12 +563,12 @@
         font-size: 55px;
     }
 
-  
+
 
     .home-self-inner {
         width: 70%;
         height: 550px;
-        
+
 
     }
 
@@ -632,7 +655,7 @@
     .home-self-inner {
         width: 70%;
         height: 500px;
-       
+
 
     }
 
@@ -719,7 +742,7 @@
     .home-self-inner {
         width: 90%;
         height: 480px;
-       
+
 
     }
 
@@ -799,12 +822,13 @@
     }
 
     .main-title {
-        font-size: 28px;
+        font-size: 30px;
+        
         text-shadow: 3px 6px 8px rgb(0, 255, 234);
         -webkit-text-stroke: 1px yellow;
     }
 
- 
+
 
     .home-self-inner {
         width: 90%;
@@ -893,11 +917,11 @@
         -webkit-text-stroke: 1px yellow;
     }
 
- 
+
 
     .home-self-inner {
         width: 90%;
-        height:400px;
+        height: 400px;
         margin-top: 0;
 
     }
@@ -990,7 +1014,7 @@
     .home-self-inner {
         width: 85%;
         height: 400px;
-    
+
 
     }
 

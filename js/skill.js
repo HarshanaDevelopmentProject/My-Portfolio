@@ -1,6 +1,6 @@
 var options = {
     series: [{
-      data: [60, 65, 55, 47, 60, 50]
+      data: [70, 65, 60, 50, 35, 55,40]
     }],
     chart: {
       type: 'bar',
@@ -18,7 +18,7 @@ var options = {
       enabled: true
     },
     xaxis: {
-      categories: ['html', 'css', 'js', 'java', 'php', 'mySql'],
+      categories: ['html', 'css', 'js', 'java', 'php', 'mySql','git'],
       max: 100 ,
       labels: {
         style: {

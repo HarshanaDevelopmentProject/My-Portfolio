@@ -7,7 +7,7 @@
 .about-outer {
     width: 100%;
     height: auto;
-     background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .top-arrow {
@@ -23,12 +23,12 @@
 
 .aboutMe-titles {
     text-align: center;
-    color: rgb(5, 5, 5);
+    color: rgb(236, 15, 52);
     font-weight: bold;
     font-style: italic;
-    text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
-    font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(116, 209, 55);
+    -webkit-text-stroke: 2px rgb(2, 185, 2);
+    font-size: 50px ;
 }
 
 .my-logo {
@@ -67,7 +67,7 @@
 .top-layer {
     width: 100%;
     height: 10%;
-   display: flex;
+    display: flex;
     justify-content: end;
     align-items: center;
 }
@@ -82,19 +82,25 @@
 .bottom-layer {
     width: 100%;
     height: 90%;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .bottom-layer-test {
-    color: white;
+    color: rgba(5, 245, 233, 0.329);
     font-size: 100px;
     opacity: 1;
-    -webkit-text-stroke: 4px blue;
-    text-shadow: 5px 5px 20px yellow;
+    -webkit-text-stroke:5px rgb(74, 238, 9);
+    text-shadow:10px 10px 20px rgb(209, 250, 60);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+
 }
+
 
 .bottom-btn-outer {
     width: 100%;
@@ -211,6 +217,7 @@
     align-items: center;
     
 
+
 }
 
 .my-self-inner {
@@ -219,6 +226,7 @@
     /* border: 5px solid green; */
     position: relative;
     border-radius: 50px;
+  
 
 
 
@@ -227,7 +235,7 @@
 .my-self-title-outer {
     width: 100%;
     height: 10%;
- display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -236,14 +244,14 @@
 .about-me-content-outer {
     width: 100%;
     height: 90%;
-   display: flex;
+    display: flex;
 
 }
 
 .profile-image-outer {
     width: 50%;
     height: 100%;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -251,14 +259,14 @@
 .profile-image {
     width: 400px;
     border-radius: 30px;
-    border: 5px solid green;
+    border: 5px solid rgb(6, 136, 1);
     box-shadow: 3px 3px 100px green;
 }
 
 .self-details-outer {
     width: 50%;
     height: 100%;
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -326,22 +334,24 @@
 /* ********************************************** education section ************************************************************************* */
 .education-outer {
     width: 100%;
-    height: 800px;
-     display: flex;
+    height:auto;
+    display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .education-inner {
     width: 90%;
     height: 90%;
-    
+   
+
 }
 
 .education-title-outer {
     width: 100%;
     height: 100px;
-      display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -354,7 +364,7 @@
 
 .vertical-line {
     width: 2px;
-    height: 100%;
+    height: 100%px;
     border: 2px solid rgb(79, 105, 218);
     margin: 0 0 0 200px;
 }
@@ -385,7 +395,7 @@
 .certificate-outer {
     width: 100%;
     height: auto;
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -394,7 +404,7 @@
 .certificate-inner {
     width: 95%;
     height: 90%;
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -420,13 +430,13 @@
 .social-inner {
     width: 100%;
     height: 90%;
-   background-color: black;
+    background-color: black;
 }
 
 .social-account-list-outer {
     width: 100%;
     height: 70%;
- 
+
 
 
 }
@@ -434,7 +444,7 @@
 .account-outer {
 
     height: 100% !important;
-   
+
 
 }
 
@@ -459,7 +469,7 @@
 .logo-test {
     width: 100%;
     height: 40%;
-   
+
 }
 
 .account-name {
@@ -542,8 +552,7 @@
 
     .bottom-layer-test {
         font-size: 70px;
-        -webkit-text-stroke: 1.2px blue;
-        text-shadow: 2px 2px 15px yellow;
+        
     }
 
 
@@ -553,8 +562,7 @@
 @media (min-width: 1024px) and (max-width: 1279px) {
     .aboutMe-titles {
         font-size: 50px;
-        text-shadow: 2px 3px 10px white;
-        -webkit-text-stroke: 2px rgb(255, 255, 255);
+       
     }
 
     /* ***************** top bar ****************  */
@@ -576,8 +584,7 @@
 
     .bottom-layer-test {
         font-size: 60px;
-        -webkit-text-stroke: 1.2px blue;
-        text-shadow: 2px 2px 15px yellow;
+       
     }
 
 
@@ -619,8 +626,7 @@
 
     .aboutMe-titles {
         font-size: 40px;
-        text-shadow: 2px 3px 10px white;
-        -webkit-text-stroke: 2px rgb(255, 255, 255);
+      
     }
 
     /* ***************** top bar ************  */
@@ -642,19 +648,12 @@
 
     .bottom-layer-test {
         font-size: 50px;
-        -webkit-text-stroke: 1.2px blue;
-        text-shadow: 2px 2px 15px yellow;
+   
     }
 
 
     /* ***  About me Section *****  */
-    .my-self-outer {
-        height: 750px;
-    }
 
-    .my-self-inner {
-        height: auto;
-    }
 
     .profile-image {
         width: 250px;
@@ -696,8 +695,7 @@
     }
 
     .vertical-line {
-        width: 2px;
-        height: 100%;
+      
         margin: 0 0 0 60px;
 
 
@@ -767,8 +765,7 @@
 
     .aboutMe-titles {
         font-size: 35px;
-        text-shadow: 3px 3px 10px white;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        
     }
 
     /* ************** top bar ****************  */
@@ -778,6 +775,7 @@
         left: 30px;
 
     }
+
     .top-bar-outer {
         height: 430px;
     }
@@ -789,19 +787,15 @@
 
     .bottom-layer-test {
         font-size: 40px;
-        -webkit-text-stroke: 1.2px blue;
-        text-shadow: 2px 2px 15px yellow;
+        -webkit-text-stroke:1.5px rgb(74, 238, 9);
+        text-shadow:5px 5px 15px rgb(209, 250, 60);
+       
+       
     }
 
 
     /* ***  About me Section *****  */
-    .my-self-outer {
-        height: 650px;
-    }
 
-    .my-self-inner {
-        height: auto;
-    }
 
     .profile-image {
         width: 200px;
@@ -843,8 +837,7 @@
     }
 
     .vertical-line {
-        width: 2px;
-        height: 100%;
+      
         margin: 0 0 0 30px;
 
 
@@ -912,8 +905,9 @@
 
     .aboutMe-titles {
         font-size: 26px;
-        text-shadow: 3px 3px 10px white;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        text-shadow: 3px 3px 10px rgb(116, 209, 55);
+        -webkit-text-stroke: 1px rgb(2, 185, 2);
+
     }
 
     /* ********** top bar ********************  */
@@ -923,6 +917,7 @@
         left: 350px;
 
     }
+
     .top-bar-outer {
         height: 360px;
     }
@@ -947,8 +942,9 @@
 
     .bottom-layer-test {
         font-size: 30px;
-        -webkit-text-stroke: 1.2px blue;
-        text-shadow: 2px 2px 15px yellow;
+        -webkit-text-stroke:1.5px rgb(74, 238, 9);
+        text-shadow:5px 5px 15px rgb(209, 250, 60);
+       
 
     }
 
@@ -960,13 +956,7 @@
 
 
     /* ***  About me Section *****  */
-    .my-self-outer {
-        height: 600px;
-    }
 
-    .my-self-inner {
-        height: auto;
-    }
 
     .profile-image {
         width: 150px;
@@ -1008,8 +998,7 @@
     }
 
     .vertical-line {
-        width: 2px;
-        height: 80%;
+  
         margin: 0 0 0 30px;
 
 
@@ -1073,8 +1062,9 @@
 
     .aboutMe-titles {
         font-size: 20px;
-        text-shadow: 3px 3px 10px white;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        text-shadow: 3px 3px 10px rgb(116, 209, 55);
+        -webkit-text-stroke: 1px  rgb(2, 185, 2) ;
+      
     }
 
     /* ***** top bar *********************  */
@@ -1084,6 +1074,7 @@
         left: 330px;
 
     }
+
     .top-bar-outer {
 
         height: 350px;
@@ -1110,8 +1101,8 @@
 
     .bottom-layer-test {
         font-size: 26px;
-        -webkit-text-stroke: 1.2px blue;
-        text-shadow: 2px 2px 15px yellow;
+        -webkit-text-stroke:1px rgb(74, 238, 9);
+        text-shadow:5px 5px 15px rgb(209, 250, 60);
     }
 
     .bottom-layer-btn {
@@ -1122,13 +1113,7 @@
 
 
     /* ***  About me Section *****  */
-    .my-self-outer {
-        height: 600px;
-    }
-
-    .my-self-inner {
-        height: auto;
-    }
+ 
 
     .profile-image {
         width: 130px;
@@ -1164,14 +1149,14 @@
     }
 
     /* ***  education details *****  */
+  
     .education-title-outer {
         height: 80px;
 
     }
 
     .vertical-line {
-        width: 2px;
-        height: 80%;
+      
         margin: 0 0 0 30px;
 
 
@@ -1232,8 +1217,9 @@
 
     .aboutMe-titles {
         font-size: 20px;
-        text-shadow: 3px 3px 10px white;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        text-shadow: 3px 3px 10px  rgb(116, 209, 55);
+        -webkit-text-stroke: 1px rgb(2, 185, 2);
+       
     }
 
     /* **************** top bar**************  */
@@ -1243,6 +1229,7 @@
         left: 250px;
 
     }
+
     .top-bar-outer {
 
         height: 300px;
@@ -1269,8 +1256,9 @@
 
     .bottom-layer-test {
         font-size: 23px;
-        -webkit-text-stroke: 1.2px blue;
-        text-shadow: 2px 2px 15px yellow;
+        -webkit-text-stroke:1px rgb(74, 238, 9);
+        text-shadow:5px 5px 15px rgb(209, 250, 60);
+     
     }
 
     .bottom-layer-btn {
@@ -1280,13 +1268,7 @@
     }
 
     /* ***  About me Section *****  */
-    .my-self-outer {
-        height: 500px;
-    }
-
-    .my-self-inner {
-        height: auto;
-    }
+ 
 
     .profile-image {
         width: 100px;
@@ -1328,8 +1310,7 @@
     }
 
     .vertical-line {
-        width: 2px;
-        height: 80%;
+       
         margin: 0 0 0 30px;
 
 
@@ -1389,8 +1370,10 @@
 
     .aboutMe-titles {
         font-size: 20px;
-        text-shadow: 3px 3px 10px white;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        text-shadow: 3px 3px 10px rgb(116, 209, 55);
+        -webkit-text-stroke: 1px rgb(2, 185, 2);
+        /* rgb(116, 209, 55)
+       rgb(2, 185, 2)  */
     }
 
     /* *** top bar*****  */
@@ -1431,13 +1414,7 @@
 
 
     /* ***  About me Section *****  */
-    .my-self-outer {
-        height: 500px;
-    }
 
-    .my-self-inner {
-        height: auto;
-    }
 
     .profile-image {
         width: 100px;
@@ -1479,9 +1456,8 @@
     }
 
     .vertical-line {
-        width: 2px;
-        height: 80%;
-        margin: 0 0 0 30px;
+       
+        margin: 0 0 0 30px; 
 
 
     }
@@ -1524,6 +1500,7 @@
 
     .account-name {
         font-size: 9px;
+        
     }
 
 }
@@ -1533,10 +1510,12 @@
 @keyframes sidebarAnimation {
     from {
         transform: translate(-100px);
+       
     }
 
     to {
         transform: translate(0);
+        
     }
 
 }
@@ -1555,5 +1534,33 @@
     100% {
         background-color: black;
         border-color: #d418bd;
+    }
+}
+
+@keyframes top-bar-text-animation {
+    0% {
+        
+        opacity: 0;
+        letter-spacing: -10px; 
+        filter: blur(0);
+    }
+
+    50% {
+        opacity: 1;
+        letter-spacing: 0px;
+        filter: blur(1);
+
+
+
+
+    }
+
+    100% {
+        opacity: 0;
+        letter-spacing: -10px;
+        filter: blur(0);
+       
+
+
     }
 }

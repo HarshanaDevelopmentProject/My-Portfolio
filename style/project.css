@@ -7,7 +7,7 @@
 .project-outer {
     width: 100%;
     height: auto;
-display: flex;
+    display: flex;
     background-color: black;
 
 
@@ -18,7 +18,7 @@ display: flex;
 .project-inner {
     width: 98%;
     height: 100%;
- 
+
 }
 
 .titles {
@@ -53,7 +53,7 @@ display: flex;
 .complete-project-outer {
     width: 100%;
     height: auto;
-   display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -66,6 +66,7 @@ display: flex;
     width: 50%;
     border: 6px solid rgb(4, 150, 113) !important;
     border-radius: 30px !important;
+    background-color: rgba(43, 2, 1, 0.452) !important;
     animation: box-shadow-animation 2S infinite linear;
 }
 
@@ -74,6 +75,17 @@ display: flex;
     height: 500px;
     border-radius: 24px !important;
 
+}
+
+.card-title {
+
+    color: rgb(51, 255, 0) !important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-text {
+    color: white;
 }
 
 
@@ -226,18 +238,18 @@ display: flex;
 @keyframes box-shadow-animation {
     0% {
         box-shadow: 1px 1px 50px rgba(101, 241, 101, 0.63);
-        
-        
+
+
     }
-  
+
     50% {
         box-shadow: 20px 20px 50px rgb(1, 90, 1)
     }
-  
+
 
     100% {
         box-shadow: 1px 1px 50px rgba(101, 241, 101, 0.63);
-        
-        
+
+
     }
 }
