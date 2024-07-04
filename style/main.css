@@ -178,6 +178,9 @@
     height: 100px;
     rotate: 180deg;
 
+
+
+
     &:hover {
         cursor: pointer;
         border: 6px solid rgb(47, 201, 8);
@@ -186,7 +189,6 @@
         box-shadow: 2px 3px 20px greenyellow;
     }
 
-    /* animation: navigate-arrow-function 1.5s 2s infinite linear; */
 }
 
 .common-navigate {
@@ -199,8 +201,7 @@
     border: 2px solid rgba(180, 3, 224, 0.705);
     box-shadow: 5px 5px 20px rgba(183, 0, 255, 0.438);
     cursor: pointer;
-
-
+ animation: border-blinking 1s infinite linear;
 }
 
 .about-me {
@@ -363,6 +364,7 @@
         width: 40%;
 
         padding: 0 0 0 30px;
+
     }
 
     .right-arrow-icon {
@@ -823,7 +825,7 @@
 
     .main-title {
         font-size: 30px;
-        
+
         text-shadow: 3px 6px 8px rgb(0, 255, 234);
         -webkit-text-stroke: 1px yellow;
     }
@@ -879,7 +881,7 @@
     .left-arrow-icon {
         width: 45px;
         height: 45px;
-        /* animation: navigate-arrow-function 1.5s 2s infinite linear; */
+
     }
 
     .right-arrow {
@@ -894,7 +896,6 @@
         width: 45px;
         height: 45px;
 
-        /* animation: navigate-arrow-function 1.5s 2s infinite linear; */
     }
 
     .navigate-test {
@@ -1126,5 +1127,21 @@
     to {
         opacity: 1;
 
+    }
+}
+
+@keyframes border-blinking {
+    0% {
+        border-width: 0;
+
+    }
+
+    50% {
+        border-width: 5px;
+    }
+
+    100% {
+
+        border-width: 0;
     }
 }

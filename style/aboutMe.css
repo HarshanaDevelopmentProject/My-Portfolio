@@ -28,7 +28,7 @@
     font-style: italic;
     text-shadow: 2px 2px 5px rgb(116, 209, 55);
     -webkit-text-stroke: 2px rgb(2, 185, 2);
-    font-size: 50px ;
+    font-size: 50px;
 }
 
 .my-logo {
@@ -86,15 +86,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 .bottom-layer-test {
     color: rgba(5, 245, 233, 0.329);
     font-size: 100px;
     opacity: 1;
-    -webkit-text-stroke:5px rgb(74, 238, 9);
-    text-shadow:10px 10px 20px rgb(209, 250, 60);
+    -webkit-text-stroke: 5px rgb(74, 238, 9);
+    text-shadow: 10px 10px 20px rgb(209, 250, 60);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
@@ -215,7 +215,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 
 }
@@ -226,7 +226,7 @@
     /* border: 5px solid green; */
     position: relative;
     border-radius: 50px;
-  
+
 
 
 
@@ -272,14 +272,14 @@
 }
 
 .self-title {
-    color: white;
+    color: rgba(111, 226, 66, 0.856);
     font-weight: bold;
     font-style: italic;
 }
 
 .self-content {
 
-    color: white;
+    color: rgba(90, 236, 22, 0.733);
     justify-self: auto;
 }
 
@@ -291,14 +291,14 @@
 
 .detail-right-side {
     font-size: 30px;
-    color: white;
+    color: rgba(172, 233, 223, 0.842);
     font-weight: bold;
 }
 
 .detail-left-side {
     font-size: 28px;
     margin-left: 20px;
-    color: white;
+    color: rgba(208, 208, 211, 0.815);
 }
 
 .self-button-outer {
@@ -334,17 +334,17 @@
 /* ********************************************** education section ************************************************************************* */
 .education-outer {
     width: 100%;
-    height:auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .education-inner {
     width: 90%;
     height: 90%;
-   
+
 
 }
 
@@ -376,7 +376,9 @@
 
 .edu-detail-top {
     font-size: 40px;
-    color: white;
+    color: rgb(115, 202, 107);
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .edu-logo {
@@ -552,7 +554,7 @@
 
     .bottom-layer-test {
         font-size: 70px;
-        
+
     }
 
 
@@ -562,7 +564,7 @@
 @media (min-width: 1024px) and (max-width: 1279px) {
     .aboutMe-titles {
         font-size: 50px;
-       
+
     }
 
     /* ***************** top bar ****************  */
@@ -584,7 +586,7 @@
 
     .bottom-layer-test {
         font-size: 60px;
-       
+
     }
 
 
@@ -626,7 +628,7 @@
 
     .aboutMe-titles {
         font-size: 40px;
-      
+
     }
 
     /* ***************** top bar ************  */
@@ -648,7 +650,7 @@
 
     .bottom-layer-test {
         font-size: 50px;
-   
+
     }
 
 
@@ -695,7 +697,7 @@
     }
 
     .vertical-line {
-      
+
         margin: 0 0 0 60px;
 
 
@@ -765,7 +767,7 @@
 
     .aboutMe-titles {
         font-size: 35px;
-        
+
     }
 
     /* ************** top bar ****************  */
@@ -787,10 +789,10 @@
 
     .bottom-layer-test {
         font-size: 40px;
-        -webkit-text-stroke:1.5px rgb(74, 238, 9);
-        text-shadow:5px 5px 15px rgb(209, 250, 60);
-       
-       
+        -webkit-text-stroke: 1.5px rgb(74, 238, 9);
+        text-shadow: 5px 5px 15px rgb(209, 250, 60);
+
+
     }
 
 
@@ -837,7 +839,7 @@
     }
 
     .vertical-line {
-      
+
         margin: 0 0 0 30px;
 
 
@@ -942,9 +944,9 @@
 
     .bottom-layer-test {
         font-size: 30px;
-        -webkit-text-stroke:1.5px rgb(74, 238, 9);
-        text-shadow:5px 5px 15px rgb(209, 250, 60);
-       
+        -webkit-text-stroke: 1.5px rgb(74, 238, 9);
+        text-shadow: 5px 5px 15px rgb(209, 250, 60);
+
 
     }
 
@@ -998,7 +1000,7 @@
     }
 
     .vertical-line {
-  
+
         margin: 0 0 0 30px;
 
 
@@ -1063,8 +1065,8 @@
     .aboutMe-titles {
         font-size: 20px;
         text-shadow: 3px 3px 10px rgb(116, 209, 55);
-        -webkit-text-stroke: 1px  rgb(2, 185, 2) ;
-      
+        -webkit-text-stroke: 1px rgb(2, 185, 2);
+
     }
 
     /* ***** top bar *********************  */
@@ -1101,8 +1103,8 @@
 
     .bottom-layer-test {
         font-size: 26px;
-        -webkit-text-stroke:1px rgb(74, 238, 9);
-        text-shadow:5px 5px 15px rgb(209, 250, 60);
+        -webkit-text-stroke: 1px rgb(74, 238, 9);
+        text-shadow: 5px 5px 15px rgb(209, 250, 60);
     }
 
     .bottom-layer-btn {
@@ -1113,7 +1115,7 @@
 
 
     /* ***  About me Section *****  */
- 
+
 
     .profile-image {
         width: 130px;
@@ -1149,14 +1151,14 @@
     }
 
     /* ***  education details *****  */
-  
+
     .education-title-outer {
         height: 80px;
 
     }
 
     .vertical-line {
-      
+
         margin: 0 0 0 30px;
 
 
@@ -1217,9 +1219,9 @@
 
     .aboutMe-titles {
         font-size: 20px;
-        text-shadow: 3px 3px 10px  rgb(116, 209, 55);
+        text-shadow: 3px 3px 10px rgb(116, 209, 55);
         -webkit-text-stroke: 1px rgb(2, 185, 2);
-       
+
     }
 
     /* **************** top bar**************  */
@@ -1256,9 +1258,9 @@
 
     .bottom-layer-test {
         font-size: 23px;
-        -webkit-text-stroke:1px rgb(74, 238, 9);
-        text-shadow:5px 5px 15px rgb(209, 250, 60);
-     
+        -webkit-text-stroke: 1px rgb(74, 238, 9);
+        text-shadow: 5px 5px 15px rgb(209, 250, 60);
+
     }
 
     .bottom-layer-btn {
@@ -1268,7 +1270,7 @@
     }
 
     /* ***  About me Section *****  */
- 
+
 
     .profile-image {
         width: 100px;
@@ -1310,7 +1312,7 @@
     }
 
     .vertical-line {
-       
+
         margin: 0 0 0 30px;
 
 
@@ -1456,8 +1458,8 @@
     }
 
     .vertical-line {
-       
-        margin: 0 0 0 30px; 
+
+        margin: 0 0 0 30px;
 
 
     }
@@ -1500,7 +1502,7 @@
 
     .account-name {
         font-size: 9px;
-        
+
     }
 
 }
@@ -1510,12 +1512,12 @@
 @keyframes sidebarAnimation {
     from {
         transform: translate(-100px);
-       
+
     }
 
     to {
         transform: translate(0);
-        
+
     }
 
 }
@@ -1539,9 +1541,9 @@
 
 @keyframes top-bar-text-animation {
     0% {
-        
+
         opacity: 0;
-        letter-spacing: -10px; 
+        letter-spacing: -10px;
         filter: blur(0);
     }
 
@@ -1559,7 +1561,7 @@
         opacity: 0;
         letter-spacing: -10px;
         filter: blur(0);
-       
+
 
 
     }

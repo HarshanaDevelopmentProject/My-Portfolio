@@ -2,7 +2,7 @@ let imgCounter = 1;
 
 
 document.getElementById("right-arrow").addEventListener('click', () => {
-   
+
 
     document.getElementById("btn" + imgCounter).style.display = "none"
 
@@ -27,7 +27,7 @@ document.getElementById("right-arrow").addEventListener('click', () => {
     }
 
 
-   
+
 
 })
 document.getElementById("left-arrow").addEventListener('click', () => {
@@ -95,6 +95,55 @@ document.getElementById("btn4").addEventListener("click", () => {
 })
 
 
+const job1 = ['F', 'u', 'l', 'l', ' ', 'S', 't', 'a', 'c', 'k', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+const job2 = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+const job3 = ['M', 'o', 'b', 'i', 'l', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+let time=150
+const appendText = document.getElementById('my-job');
+
+function displayNextLetter() {
+    for (let i = 0; i < 20; i++) {
+        setTimeout(() => {
+            appendText.append(job1[i]);
+        }, i * time);
+    }
+
+    setTimeout(() => {
+        appendText.textContent = '';
+        displayJob2();
+    }, 20 * time);
+}
+
+
+function displayJob2() {
+    for (let i = 0; i < 13; i++) {
+        setTimeout(() => {
+            appendText.append(job2[i]);
+        }, i * time);
+    }
+
+    setTimeout(() => {
+        appendText.textContent = ''; 
+        displayJob3(); 
+    }, 13 * time); 
+}
+
+
+function displayJob3() {
+    for (let i = 0; i < 16; i++) {
+        setTimeout(() => {
+            appendText.append(job3[i]);
+        }, i * time);
+    }
+
+    setTimeout(() => {
+        appendText.textContent = ''; 
+        displayNextLetter(); 
+    }, 16 * time); 
+}
+
+
+displayNextLetter();
 
 
 
@@ -104,7 +153,21 @@ document.getElementById("btn4").addEventListener("click", () => {
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
