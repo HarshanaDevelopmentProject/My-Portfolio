@@ -46,15 +46,21 @@ setInterval(() => {
 
 
 
-
+document.getElementById('skill-btn').addEventListener("click", () => {
+    location.href = "../page/skill.html"
+})
 
 // ********************************************************social account part *****************************************************
 
 document.getElementById('linkedin-icon').addEventListener("click", () => {
-    window.open('https://www.linkedin.com/')
+    window.open('https://www.linkedin.com/in/janith-harshana-56ba07317/')
 })
 
 
-document.getElementById('skill-btn').addEventListener("click", () => {
-    location.href = "../page/skill.html"
+document.getElementById('github-icon').addEventListener("click", () => {
+    window.open('https://github.com/HarshanaDevelopmentProject')
+})
+
+document.getElementById('Medium-logo').addEventListener("click", () => {
+    window.open('https://medium.com/@janithharshana8345')
 })

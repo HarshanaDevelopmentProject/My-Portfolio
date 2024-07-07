@@ -59,9 +59,6 @@
     height: 95%;
     display: flex;
     flex-direction: column;
-
-
-
 }
 
 .top-layer {
@@ -135,7 +132,7 @@
     text-align: center;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    font-weight: bold;
 }
 
 .hire-btn:hover {
@@ -226,10 +223,6 @@
     /* border: 5px solid green; */
     position: relative;
     border-radius: 50px;
-
-
-
-
 }
 
 .my-self-title-outer {
@@ -413,9 +406,10 @@
 }
 
 .carousel-btn {
-    color: #18D42E !important;
-    background-color: red !important;
+    color: #d60707 !important;
+    background-color: rgb(52, 78, 3) !important;
     border-radius: 50%;
+    border-color: green !important;
     width: 50px !important;
     height: 50px !important;
 }
@@ -438,16 +432,11 @@
 .social-account-list-outer {
     width: 100%;
     height: 70%;
-
-
-
 }
 
 .account-outer {
 
     height: 100% !important;
-
-
 }
 
 .logo {
@@ -475,6 +464,7 @@
 }
 
 .account-name {
+    text-decoration: none;
     color: white;
     font-weight: bold;
     display: flex;
@@ -483,6 +473,10 @@
     font-size: 30px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 /* ================================================= responcive part ================================================================================================= */
@@ -749,10 +743,6 @@
     .account-name {
         font-size: 20px;
     }
-
-
-
-
 }
 
 

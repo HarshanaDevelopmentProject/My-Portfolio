@@ -42,7 +42,6 @@
     text-shadow: 5px 6px 10px rgb(0, 255, 234);
     -webkit-text-stroke: 3px yellow;
     animation: letterspacing 3s linear;
-    font-family: cursive;
 }
 
 
@@ -824,7 +823,7 @@
     }
 
     .main-title {
-        font-size: 30px;
+        font-size: 37px;
 
         text-shadow: 3px 6px 8px rgb(0, 255, 234);
         -webkit-text-stroke: 1px yellow;

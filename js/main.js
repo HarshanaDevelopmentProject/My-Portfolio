@@ -77,7 +77,7 @@ setInterval(() => {
 
 }, 1)
 
-
+// ========================================================= page navigation part ============================================================
 
 document.getElementById("btn1").addEventListener("click", () => {
     window.location.href = "page/aboutMe.html"
@@ -94,11 +94,11 @@ document.getElementById("btn4").addEventListener("click", () => {
     window.location.href = "page/contact.html"
 })
 
-
+// ============================================================= job role text animation ===========================================================
 const job1 = ['F', 'u', 'l', 'l', ' ', 'S', 't', 'a', 'c', 'k', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 const job2 = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 const job3 = ['M', 'o', 'b', 'i', 'l', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
-let time=150
+let time=200
 const appendText = document.getElementById('my-job');
 
 function displayNextLetter() {
